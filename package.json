@@ -11,14 +11,17 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@formatjs/intl-localematcher": "^0.4.2",
+    "@swc/plugin-styled-components": "^1.5.105",
     "@types/negotiator": "^0.6.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "negotiator": "^0.6.3",
