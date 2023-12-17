@@ -1,11 +1,9 @@
 import { Locale, i18n } from '@/i18n.config';
-import Navbar from '@/shared/Navbar';
 import { getHtmlDirection } from '@/utils/getHtmlDirection';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import StyledComponentsRegistry from '../../lib/registry';
-import GlobalStyles from '../../styles/GlobalStyles';
-
+import Providers from '@/app/[lang]/_components/myProviders';
+import GlobalStyles from '../../styles/globalStyles';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -29,11 +27,10 @@ export default function RootLayout({
       lang={params.lang}
       dir={getHtmlDirection(params.lang)}>
       <body className={inter.className}>
-        <StyledComponentsRegistry>
-		<GlobalStyles />
-          <Navbar params={params} />
+        <Providers>
+          <GlobalStyles />
           {children}
-        </StyledComponentsRegistry>
+        </Providers>
       </body>
     </html>
   );
