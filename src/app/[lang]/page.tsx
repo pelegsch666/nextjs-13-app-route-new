@@ -1,5 +1,9 @@
 import { LangParam } from '@/types';
 import { getDictionaryServer } from '@/utils/getDictionaryServer';
+import { styled } from 'styled-components';
+import MyDivComponent from './_components/myDiv';
+
+
 
 const Home = async ({ params: { lang } }: LangParam) => {
 	const dict = await getDictionaryServer(lang);
@@ -7,6 +11,8 @@ const Home = async ({ params: { lang } }: LangParam) => {
 	return (
 		<>
 			<h1>{page.title}</h1>
+          <MyDivComponent/>
+		  <MyDivComponent/>
 		</>
 	);
 };
