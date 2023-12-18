@@ -12,6 +12,7 @@ const Home = async ({ params: { lang } }: LangParam) => {
 		<>
 			<h1>{page.title}</h1>
           <MyDivComponent/>
+		  <MyDivComponent/>
 		</>
 	);
 };
