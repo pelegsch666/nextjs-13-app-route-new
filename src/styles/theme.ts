@@ -9,6 +9,11 @@ const theme = {
     colorName7: 'hsla(222, 84%, 50%, 0.654)',
     colorName8: 'hsla(222, 84%, 50%, 0.654)',
     colorName9: 'hsla(222, 84%, 50%, 0.654)',
+    colorName10: 'hsla(222, 84%, 50%, 0.654)',
+    colorName11: 'hsla(222, 84%, 50%, 0.654)',
+    colorName12: 'hsla(222, 84%, 50%, 0.654)',
+    colorName13: 'hsla(222, 84%, 50%, 0.654)',
+    
     
   },
 };
