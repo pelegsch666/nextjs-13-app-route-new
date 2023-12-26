@@ -13,6 +13,11 @@ const theme = {
     colorName11: 'hsla(222, 84%, 50%, 0.654)',
     colorName12: 'hsla(222, 84%, 50%, 0.654)',
     colorName13: 'hsla(222, 84%, 50%, 0.654)',
+    colorName14: 'hsla(222, 84%, 50%, 0.654)',
+    colorName15: 'hsla(222, 84%, 50%, 0.654)',
+    colorName16: 'hsla(222, 84%, 50%, 0.654)',
+    colorName17: 'hsla(222, 84%, 50%, 0.654)',
+    colorName18: 'hsla(222, 84%, 50%, 0.654)',
     
     
   },
