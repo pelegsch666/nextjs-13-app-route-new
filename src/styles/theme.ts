@@ -18,6 +18,8 @@ const theme = {
     colorName16: 'hsla(222, 84%, 50%, 0.654)',
     colorName17: 'hsla(222, 84%, 50%, 0.654)',
     colorName18: 'hsla(222, 84%, 50%, 0.654)',
+    colorName19: 'hsla(222, 84%, 50%, 0.654)',
+    colorName20: 'hsla(222, 84%, 50%, 0.654)',
     
     
   },
